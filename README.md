@@ -7,12 +7,12 @@ This project implements a **K-Nearest Neighbors (KNN)** classifier to categorize
 
 ## ⚙️ Pipeline Architecture
 1. **📥 Input & Loading**: Loaded 150 balanced samples from the Iris benchmark dataset.
-2. **🔀 Structural Split**: Divided data into an **80% training set** (for pattern recognition) and a **20% test set** (for validation) with random shuffling[cite: 1].
-3. **⚖️ Feature Scaling**: Standardized features using `StandardScaler` ($\text{Mean} = 0, \text{Variance} = 1$) to prevent feature bias[cite: 1].
-4. **⚙️ Model Training**: Applied the **KNN algorithm** based on the proximity principle[cite: 1].
-5. **📊 Output Validation**: Evaluated performance using accuracy metrics, a **Confusion Matrix**, and a classification report[cite: 1].
+2. **🔀 Structural Split**: Divided data into an **80% training set** (for pattern recognition) and a **20% test set** (for validation) with random shuffling.
+3. **⚖️ Feature Scaling**: Standardized features using `StandardScaler` ($\text{Mean} = 0, \text{Variance} = 1$) to prevent feature bias.
+4. **⚙️ Model Training**: Applied the **KNN algorithm** based on the proximity principle.
+5. **📊 Output Validation**: Evaluated performance using accuracy metrics, a **Confusion Matrix**, and a classification report.
 
 ## 💻 How to Run
-1. Ensure Python is installed along with the required libraries[cite: 1]:
+1. Ensure Python is installed along with the required libraries:
    ```bash
    pip install scikit-learn numpy scipy
